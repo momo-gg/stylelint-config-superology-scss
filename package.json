@@ -1,0 +1,49 @@
+{
+    "name": "stylelint-config-superology-scss",
+    "version": "0.0.2",
+    "description": "Shared Stylelint & Prettier config for SCSS based projects at Superology",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install"
+    },
+    "maintainers": [
+        "Momir Zmijanac <momir.zmijanac@superology.com>"
+    ],
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org",
+        "tag": "latest",
+        "access": "public"
+    },
+    "dependencies": {
+        "postcss": ">= 8.0.0",
+        "postcss-scss": "^4.0.3",
+        "stylelint": ">= 14.5.0",
+        "stylelint-config-prettier": "^9.0.3",
+        "stylelint-config-prettier-scss": "^0.0.1",
+        "stylelint-config-rational-order": "^0.1.2",
+        "stylelint-config-recommended": "^7.0.0",
+        "stylelint-config-recommended-scss": "^5.0.2",
+        "stylelint-high-performance-animation": "^1.6.0",
+        "stylelint-order": "^5.0.0",
+        "stylelint-scss": "^4.1.0"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^16.1.0",
+        "@commitlint/config-conventional": "^16.0.0",
+        "eslint": "^8.8.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "husky": "^7.0.4",
+        "prettier": "^2.5.1"
+    },
+    "peerDependencies": {
+        "postcss": ">= 8.0.0",
+        "prettier": ">= 2.5.1",
+        "stylelint": ">= 14.5.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT"
+}
