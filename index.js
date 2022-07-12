@@ -6,8 +6,6 @@ module.exports = {
         'stylelint-order',
         'stylelint-config-rational-order/plugin',
     ],
-    // eslint-disable-next-line global-require
-    // customSyntax: require('postcss-scss'),
     ignoreFiles: ['**/*.{js,jsx,ts,tsx,vue}'],
     rules: {
         'alpha-value-notation': [
@@ -254,6 +252,10 @@ module.exports = {
         {
             files: ['**/*.scss'],
             customSyntax: 'postcss-scss',
+        },
+        {
+            files: ['**/*.vue'],
+            customSyntax: 'postcss-html',
         },
     ],
 }
